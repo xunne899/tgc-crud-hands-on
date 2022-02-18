@@ -1,0 +1,25 @@
+{
+  "name": "tgc-crud-hands-on",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunxin-chor/tgc-crud-hands-on.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunxin-chor/tgc-crud-hands-on/issues"
+  },
+  "homepage": "https://github.com/kunxin-chor/tgc-crud-hands-on#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "hbs": "^4.2.0",
+    "node-localstorage": "^2.2.1",
+    "wax-on": "^1.2.2"
+  }
+}
