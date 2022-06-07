@@ -1,0 +1,13 @@
+{{#extends 'base'}}
+{{#block "content"}}
+<form method="POST">
+<div>
+    {{books.id}}
+    {{books.title}}
+    {{books.isbn}}
+</div>
+<input type="submit" name="submit" class = "btn btn-danger"value="Confirm delete"/>
+</form>
+
+{{/block}}
+{{/extends}}
