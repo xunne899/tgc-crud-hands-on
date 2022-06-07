@@ -87,7 +87,7 @@ app.get('/books/:id', function (req,res){
 })
 
 
-
+// get delete
 app.get('/books/delete/:id',function(req,res){
     let id = req.params.id
     // let title = req.body.title;
@@ -101,7 +101,7 @@ app.get('/books/delete/:id',function(req,res){
 
 
 
-
+// post delete
 app.post('/books/delete/:id',function(req,res){
     let id = req.params.id
     // let title = req.body.title;
